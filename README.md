@@ -20,13 +20,13 @@
 ## Connect
 
 <div align="center">
-  <a href="https://www.linkedin.com/in/muhammad-tahir-55a625214/" target="_blank">
+  <a href="https://www.linkedin.com/in/muhammad-tahir-55a625214/">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <a href="https://m-tahir.dev/" target="_blank">
+  <a href="https://m-tahir.dev/">
     <img src="https://img.shields.io/badge/Portfolio-111111?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
   </a>
-  <a href="https://github.com/MTahirKleem" target="_blank">
+  <a href="https://github.com/MTahirKleem">
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
 </div>
