@@ -1,8 +1,10 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Muhammad%20Tahir&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Data%20Scientist%20%E2%80%A2%20AI%20Engineer%20%E2%80%A2%20Backend%20Developer&descSize=16&descAlignY=55" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0221,50:1a0533,100:ff2d55&height=200&section=header&text=Muhammad%20Tahir&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Data%20Scientist%20%7C%20AI%20Engineer%20%7C%20Backend%20Developer&descSize=18&descAlignY=58&descColor=cccccc" />
 
-<br/>
+</div>
+
+<div align="center">
 
 **`Architecting production-grade AI systems and scalable backend infrastructure`**
 
@@ -12,11 +14,15 @@
 [![Portfolio](https://img.shields.io/badge/Portfolio-111111?style=for-the-badge&logo=vercel&logoColor=white)](https://m-tahir.dev/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MTahirKleem)
 
+<br/>
+
+![Profile Views](https://komarev.com/ghpvc/?username=MTahirKleem&style=for-the-badge&color=blueviolet&label=PROFILE+VIEWS)
+
 </div>
 
 ---
 
-## About
+## 🧠 About
 
 ```python
 class MuhammadTahir:
@@ -34,7 +40,7 @@ class MuhammadTahir:
 
 ---
 
-## Tech Stack
+## ⚙️ Tech Stack
 
 #### Languages
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -45,6 +51,7 @@ class MuhammadTahir:
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/HuggingFace-FFD21F?style=for-the-badge&logo=huggingface&logoColor=black)
 
 #### Databases
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
@@ -59,20 +66,40 @@ class MuhammadTahir:
 
 ---
 
-## GitHub Analytics
+## 📊 GitHub Analytics
+
+<!--
+  ⚠️ NOTE: github-readme-stats.vercel.app (public instance) has been unreliable since late 2025.
+  Using github-readme-stats-fast.vercel.app (maintained fork) as the drop-in replacement.
+  Streak uses git.io/streak-stats which is the official stable endpoint.
+-->
 
 <div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=MTahirKleem&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&rank_icon=github" alt="GitHub Stats" />
-  <img height="170" src="https://streak-stats.demolab.com?user=MTahirKleem&theme=radical&hide_border=true&background=0d1117" alt="GitHub Streak" />
+  <img width="49%" src="https://github-readme-stats-fast.vercel.app/api?username=MTahirKleem&show_icons=true&theme=radical&hide_border=true&count_private=true&include_all_commits=true" />
+  <img width="49%" src="https://streak-stats.demolab.com?user=MTahirKleem&theme=radical&hide_border=true" />
 </div>
 
 <div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MTahirKleem&layout=compact&theme=radical&hide_border=true&bg_color=0d1117" alt="Top Languages" />
+  <img width="42%" src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=MTahirKleem&layout=compact&theme=radical&hide_border=true&langs_count=8" />
+</div>
+
+<br/>
+
+<div align="center">
+  <img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=MTahirKleem&theme=redical&hide_border=true&bg_color=0d1117&color=ff2d55&line=ff2d55&point=ffffff&area=true" />
 </div>
 
 ---
 
-## Core Competencies
+## 🏆 Achievements
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=MTahirKleem&theme=radical&no-frame=true&no-bg=true&margin-w=4&column=7" />
+</div>
+
+---
+
+## 🎯 Core Competencies
 
 | Domain | Expertise |
 |---|---|
@@ -83,8 +110,19 @@ class MuhammadTahir:
 
 ---
 
+## 🚀 Featured Projects
+
+| Project | Description | Stack |
+|---|---|---|
+| [**rag-chatbot**](https://github.com/MTahirKleem/rag-chatbot) | Production RAG pipeline with LLM-powered retrieval over domain documents | Python · LangChain · FastAPI |
+| [**nexora-project**](https://github.com/MTahirKleem/nexora-project) | AI Agent framework for automated task orchestration | Python · OpenAI · Docker |
+| [**Ecommerce_Django**](https://github.com/MTahirKleem/Ecommerce_Django) | Full-stack e-commerce platform with REST API backend | Django · PostgreSQL · HTML |
+| [**Portfolio**](https://github.com/MTahirKleem/Portfolio) | Personal portfolio site — [m-tahir.dev](https://m-tahir.dev/) | TypeScript · Vercel |
+
+---
+
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:ff2d55,50:1a0533,100:0d0221&height=120&section=footer" />
 
 </div>
