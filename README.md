@@ -1,6 +1,9 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0221,50:1a0533,100:ff2d55&height=200&section=header&text=Muhammad%20Tahir&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Data%20Scientist%20%7C%20AI%20Engineer%20%7C%20Backend%20Developer&descSize=18&descAlignY=58&descColor=cccccc" />
+<img 
+  src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0221,50:1a0533,100:ff2d55&height=200&section=header&text=Muhammad%20Tahir&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Data%20Scientist%20%7C%20AI%20Engineer%20%7C%20Backend%20Developer&descSize=18&descAlignY=58&descColor=cccccc" 
+  alt="Muhammad Tahir Header"
+/>
 
 </div>
 
@@ -43,22 +46,26 @@ class MuhammadTahir:
 ## ⚙️ Tech Stack
 
 #### Languages
+
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
 
 #### Frameworks & AI/ML
+
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
-![Hugging Face](https://img.shields.io/badge/HuggingFace-FFD21F?style=for-the-badge&logo=huggingface&logoColor=black)
+![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21F?style=for-the-badge&logo=huggingface&logoColor=black)
 
 #### Databases
+
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 
 #### Tools & DevOps
+
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![REST APIs](https://img.shields.io/badge/REST%20APIs-005571?style=for-the-badge&logo=fastapi&logoColor=white)
@@ -68,25 +75,42 @@ class MuhammadTahir:
 
 ## 📊 GitHub Analytics
 
-<!--
-  ⚠️ NOTE: github-readme-stats.vercel.app (public instance) has been unreliable since late 2025.
-  Using github-readme-stats-fast.vercel.app (maintained fork) as the drop-in replacement.
-  Streak uses git.io/streak-stats which is the official stable endpoint.
--->
-
 <div align="center">
-  <img width="49%" src="https://github-readme-stats-fast.vercel.app/api?username=MTahirKleem&show_icons=true&theme=radical&hide_border=true&count_private=true&include_all_commits=true" />
-  <img width="49%" src="https://streak-stats.demolab.com?user=MTahirKleem&theme=radical&hide_border=true" />
+
+<img 
+  width="49%" 
+  src="https://github-readme-stats.vercel.app/api?username=MTahirKleem&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&cache_seconds=86400" 
+  alt="Muhammad Tahir GitHub Stats"
+/>
+
+<img 
+  width="49%" 
+  src="https://streak-stats.demolab.com?user=MTahirKleem&theme=radical&hide_border=true" 
+  alt="Muhammad Tahir GitHub Streak"
+/>
+
 </div>
 
 <div align="center">
-  <img width="42%" src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=MTahirKleem&layout=compact&theme=radical&hide_border=true&langs_count=8" />
+
+<img 
+  width="42%" 
+  src="https://github-readme-stats.vercel.app/api/top-langs/?username=MTahirKleem&layout=compact&theme=radical&hide_border=true&langs_count=8&cache_seconds=86400" 
+  alt="Muhammad Tahir Top Languages"
+/>
+
 </div>
 
 <br/>
 
 <div align="center">
-  <img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=MTahirKleem&theme=redical&hide_border=true&bg_color=0d1117&color=ff2d55&line=ff2d55&point=ffffff&area=true" />
+
+<img 
+  width="98%" 
+  src="https://github-readme-activity-graph.vercel.app/graph?username=MTahirKleem&theme=radical&hide_border=true&bg_color=0d1117&color=ff2d55&line=ff2d55&point=ffffff&area=true" 
+  alt="Muhammad Tahir Contribution Graph"
+/>
+
 </div>
 
 ---
@@ -94,7 +118,12 @@ class MuhammadTahir:
 ## 🏆 Achievements
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=MTahirKleem&theme=radical&no-frame=true&no-bg=true&margin-w=4&column=7" />
+
+<img 
+  src="https://github-profile-trophy.vercel.app/?username=MTahirKleem&theme=radical&no-frame=true&margin-w=8&margin-h=8&column=4" 
+  alt="Muhammad Tahir GitHub Trophies"
+/>
+
 </div>
 
 ---
@@ -123,6 +152,9 @@ class MuhammadTahir:
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:ff2d55,50:1a0533,100:0d0221&height=120&section=footer" />
+<img 
+  src="https://capsule-render.vercel.app/api?type=waving&color=0:ff2d55,50:1a0533,100:0d0221&height=120&section=footer" 
+  alt="Footer"
+/>
 
 </div>
