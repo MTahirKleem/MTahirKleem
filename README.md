@@ -172,6 +172,111 @@ Latest public repositories, automatically refreshed from GitHub.
 </div>
 
 <!-- FEATURED-PROJECTS:START -->
+<div align="center">
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+<h3>
+<a href="https://github.com/MTahirKleem/ParkingManagement">ParkingManagement</a>
+</h3>
+
+<p>A public Python project from my GitHub workspace.</p>
+
+<p>
+<img src="https://img.shields.io/static/v1?style=flat-square&label=Code&message=Python&color=3776AB&logo=python&logoColor=white" alt="Python"/>
+
+</p>
+
+<p>
+<img src="https://img.shields.io/github/stars/MTahirKleem/ParkingManagement?style=flat-square&color=ff2d55&label=Stars" alt="Stars"/>
+<img src="https://img.shields.io/github/forks/MTahirKleem/ParkingManagement?style=flat-square&color=7c3aed&label=Forks" alt="Forks"/>
+<img src="https://img.shields.io/github/last-commit/MTahirKleem/ParkingManagement?style=flat-square&color=0ea5e9&label=Updated" alt="Last Commit"/>
+</p>
+
+<p>
+<a href="https://github.com/MTahirKleem/ParkingManagement"><img src="https://img.shields.io/badge/View_Repository-111111?style=for-the-badge&logo=github&logoColor=white" alt="View Repository"/></a>
+</p>
+
+</td>
+<td width="50%" valign="top">
+
+<h3>
+<a href="https://github.com/MTahirKleem/StudyBuddy">StudyBuddy</a>
+</h3>
+
+<p>A public Python project from my GitHub workspace.</p>
+
+<p>
+<img src="https://img.shields.io/static/v1?style=flat-square&label=Code&message=Python&color=3776AB&logo=python&logoColor=white" alt="Python"/>
+
+</p>
+
+<p>
+<img src="https://img.shields.io/github/stars/MTahirKleem/StudyBuddy?style=flat-square&color=ff2d55&label=Stars" alt="Stars"/>
+<img src="https://img.shields.io/github/forks/MTahirKleem/StudyBuddy?style=flat-square&color=7c3aed&label=Forks" alt="Forks"/>
+<img src="https://img.shields.io/github/last-commit/MTahirKleem/StudyBuddy?style=flat-square&color=0ea5e9&label=Updated" alt="Last Commit"/>
+</p>
+
+<p>
+<a href="https://github.com/MTahirKleem/StudyBuddy"><img src="https://img.shields.io/badge/View_Repository-111111?style=for-the-badge&logo=github&logoColor=white" alt="View Repository"/></a>
+</p>
+
+</td>
+</tr><tr>
+<td width="50%" valign="top">
+
+<h3>
+<a href="https://github.com/MTahirKleem/rag-chatbot">rag-chatbot</a>
+</h3>
+
+<p>A public project from my GitHub workspace, updated automatically from GitHub.</p>
+
+<p>
+
+
+</p>
+
+<p>
+<img src="https://img.shields.io/github/stars/MTahirKleem/rag-chatbot?style=flat-square&color=ff2d55&label=Stars" alt="Stars"/>
+<img src="https://img.shields.io/github/forks/MTahirKleem/rag-chatbot?style=flat-square&color=7c3aed&label=Forks" alt="Forks"/>
+<img src="https://img.shields.io/github/last-commit/MTahirKleem/rag-chatbot?style=flat-square&color=0ea5e9&label=Updated" alt="Last Commit"/>
+</p>
+
+<p>
+<a href="https://github.com/MTahirKleem/rag-chatbot"><img src="https://img.shields.io/badge/View_Repository-111111?style=for-the-badge&logo=github&logoColor=white" alt="View Repository"/></a>
+</p>
+
+</td>
+<td width="50%" valign="top">
+
+<h3>
+<a href="https://github.com/MTahirKleem/Portfolio">Portfolio</a>
+</h3>
+
+<p>A public TypeScript project from my GitHub workspace.</p>
+
+<p>
+<img src="https://img.shields.io/static/v1?style=flat-square&label=Code&message=TypeScript&color=3178C6&logo=typescript&logoColor=white" alt="TypeScript"/>
+
+</p>
+
+<p>
+<img src="https://img.shields.io/github/stars/MTahirKleem/Portfolio?style=flat-square&color=ff2d55&label=Stars" alt="Stars"/>
+<img src="https://img.shields.io/github/forks/MTahirKleem/Portfolio?style=flat-square&color=7c3aed&label=Forks" alt="Forks"/>
+<img src="https://img.shields.io/github/last-commit/MTahirKleem/Portfolio?style=flat-square&color=0ea5e9&label=Updated" alt="Last Commit"/>
+</p>
+
+<p>
+<a href="https://github.com/MTahirKleem/Portfolio"><img src="https://img.shields.io/badge/View_Repository-111111?style=for-the-badge&logo=github&logoColor=white" alt="View Repository"/></a>
+</p>
+
+</td>
+</tr>
+</table>
+
+</div>
 <!-- FEATURED-PROJECTS:END -->
 
 ---
