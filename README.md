@@ -97,7 +97,7 @@ My work focuses on combining data science, intelligent automation, retrieval-aug
 
 <img 
 width="49%" 
-src="https://github-readme-stats.vercel.app/api?username=MTahirKleem&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&cache_seconds=86400" 
+src="https://github-readme-stats-fast.vercel.app/api?username=MTahirKleem&show_icons=true&theme=radical&hide_border=true&include_all_commits=true" 
 alt="Muhammad Tahir GitHub Stats"
 />
 
@@ -115,7 +115,7 @@ alt="Muhammad Tahir GitHub Streak"
 
 <img 
 width="42%" 
-src="https://github-readme-stats.vercel.app/api/top-langs/?username=MTahirKleem&layout=compact&theme=radical&hide_border=true&langs_count=8&cache_seconds=86400" 
+src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=MTahirKleem&layout=compact&theme=radical&hide_border=true&langs_count=8" 
 alt="Muhammad Tahir Top Languages"
 />
 
