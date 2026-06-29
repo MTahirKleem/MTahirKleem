@@ -3,8 +3,8 @@ import json
 import os
 import re
 import sys
+import urllib.parse
 import urllib.request
-from datetime import datetime
 
 
 USERNAME = os.getenv("GITHUB_USERNAME", "MTahirKleem")
@@ -21,6 +21,26 @@ EXCLUDED_REPOS = {
     USERNAME.lower(),
     ".github",
 }
+
+
+LANGUAGE_COLORS = {
+    "Python": "3776AB",
+    "TypeScript": "3178C6",
+    "JavaScript": "F7DF1E",
+    "HTML": "E34F26",
+    "CSS": "1572B6",
+    "Java": "007396",
+    "C++": "00599C",
+    "C": "A8B9CC",
+    "Go": "00ADD8",
+    "Rust": "000000",
+    "PHP": "777BB4",
+    "Dart": "0175C2",
+    "Kotlin": "7F52FF",
+    "Swift": "FA7343",
+    "Shell": "4EAA25",
+}
+
 
 def github_request(url):
     headers = {
@@ -45,64 +65,109 @@ def clean_text(value, fallback="Not provided"):
     return html.escape(str(value).strip())
 
 
-def format_date(value):
-    if not value:
-        return "Unknown"
+def badge_url(label, message, color="111111", logo=None, logo_color="white", style="flat-square"):
+    query = {
+        "style": style,
+        "label": label,
+        "message": message,
+        "color": color,
+    }
 
-    try:
-        date = datetime.strptime(value, "%Y-%m-%dT%H:%M:%SZ")
-        return date.strftime("%b %d, %Y")
-    except ValueError:
-        return "Unknown"
+    if logo:
+        query["logo"] = logo
+        query["logoColor"] = logo_color
+
+    return "https://img.shields.io/static/v1?" + urllib.parse.urlencode(query)
 
 
-def repo_tags(repo):
-    tags = []
+def language_badge(language):
+    if not language:
+        return ""
+
+    color = LANGUAGE_COLORS.get(language, "6c757d")
+    logo = language.lower().replace("++", "plusplus").replace("#", "sharp").replace(" ", "")
+
+    return f'<img src="{badge_url("Code", language, color, logo)}" alt="{html.escape(language)}"/>'
+
+
+def topic_badges(repo):
+    topics = repo.get("topics", [])[:3]
+    badges = []
+
+    for topic in topics:
+        safe_topic = str(topic).replace("-", " ")
+        badges.append(
+            f'<img src="{badge_url("Topic", safe_topic, "1a0533")}" alt="{html.escape(str(topic))}"/>'
+        )
+
+    return " ".join(badges)
+
+
+def repo_description(repo):
+    description = repo.get("description")
+
+    if description:
+        return clean_text(description)
 
     language = repo.get("language")
+
     if language:
-        tags.append(language)
+        return f"A public {html.escape(language)} project from my GitHub workspace."
 
-    topics = repo.get("topics", [])
-    for topic in topics[:4]:
-        tags.append(topic)
-
-    if not tags:
-        tags.append("Project")
-
-    return " ".join(f"<code>{html.escape(str(tag))}</code>" for tag in tags[:5])
+    return "A public project from my GitHub workspace, updated automatically from GitHub."
 
 
 def repo_card(repo):
     name = clean_text(repo.get("name"), "Repository")
-    description = clean_text(repo.get("description"), "No description provided.")
     url = clean_text(repo.get("html_url"), "#")
+    description = repo_description(repo)
+    language = repo.get("language")
     homepage = repo.get("homepage")
 
-    stars = repo.get("stargazers_count", 0)
-    forks = repo.get("forks_count", 0)
-    updated = format_date(repo.get("updated_at"))
-    tags = repo_tags(repo)
+    encoded_repo = urllib.parse.quote(repo.get("name", ""), safe="")
+    encoded_user = urllib.parse.quote(USERNAME, safe="")
 
-    links = f'<a href="{url}">Repository</a>'
+    language_html = language_badge(language)
+    topics_html = topic_badges(repo)
+
+    repo_button = (
+        f'<a href="{url}">'
+        f'<img src="https://img.shields.io/badge/View_Repository-111111?style=for-the-badge&logo=github&logoColor=white" alt="View Repository"/>'
+        f'</a>'
+    )
+
+    live_button = ""
 
     if homepage and str(homepage).startswith(("http://", "https://")):
-        links += f' · <a href="{html.escape(str(homepage))}">Live Demo</a>'
+        live_button = (
+            f' <a href="{html.escape(str(homepage))}">'
+            f'<img src="https://img.shields.io/badge/Live_Demo-ff2d55?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo"/>'
+            f'</a>'
+        )
 
     return f"""
 <td width="50%" valign="top">
 
-<h3><a href="{url}">{name}</a></h3>
+<h3>
+<a href="{url}">{name}</a>
+</h3>
 
 <p>{description}</p>
 
-<p>{tags}</p>
-
 <p>
-Stars: <b>{stars}</b> · Forks: <b>{forks}</b> · Updated: <b>{updated}</b>
+{language_html}
+{topics_html}
 </p>
 
-<p>{links}</p>
+<p>
+<img src="https://img.shields.io/github/stars/{encoded_user}/{encoded_repo}?style=flat-square&color=ff2d55&label=Stars" alt="Stars"/>
+<img src="https://img.shields.io/github/forks/{encoded_user}/{encoded_repo}?style=flat-square&color=7c3aed&label=Forks" alt="Forks"/>
+<img src="https://img.shields.io/github/last-commit/{encoded_user}/{encoded_repo}?style=flat-square&color=0ea5e9&label=Updated" alt="Last Commit"/>
+</p>
+
+<p>
+{repo_button}{live_button}
+</p>
 
 </td>
 """.strip()
@@ -121,9 +186,17 @@ def generate_projects_section(repos):
         second = cards[index + 1] if index + 1 < len(cards) else '<td width="50%"></td>'
         rows.append(f"<tr>\n{first}\n{second}\n</tr>")
 
-    table = "<table>\n" + "\n".join(rows) + "\n</table>"
+    section = f"""
+<div align="center">
 
-    return f"{START_MARKER}\n{table}\n{END_MARKER}"
+<table>
+{"".join(rows)}
+</table>
+
+</div>
+""".strip()
+
+    return f"{START_MARKER}\n{section}\n{END_MARKER}"
 
 
 def fetch_public_repos():

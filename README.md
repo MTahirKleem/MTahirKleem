@@ -165,12 +165,13 @@ alt="Muhammad Tahir Contribution Graph"
 
 ## Featured Projects
 
-These projects are updated automatically from my latest public GitHub repositories.
+<div align="center">
+
+Latest public repositories, automatically refreshed from GitHub.
+
+</div>
 
 <!-- FEATURED-PROJECTS:START -->
-
-<!-- Featured projects will be inserted here automatically. -->
-
 <!-- FEATURED-PROJECTS:END -->
 
 ---
