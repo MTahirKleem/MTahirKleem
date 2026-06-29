@@ -168,9 +168,72 @@ alt="Muhammad Tahir Contribution Graph"
 These projects are updated automatically from my latest public GitHub repositories.
 
 <!-- FEATURED-PROJECTS:START -->
+<table>
+<tr>
+<td width="50%" valign="top">
 
-<!-- Featured projects will be inserted here automatically. -->
+<h3><a href="https://github.com/MTahirKleem/ParkingManagement">ParkingManagement</a></h3>
 
+<p>No description provided.</p>
+
+<p><code>Python</code></p>
+
+<p>
+Stars: <b>0</b> · Forks: <b>0</b> · Updated: <b>Jun 29, 2026</b>
+</p>
+
+<p><a href="https://github.com/MTahirKleem/ParkingManagement">Repository</a></p>
+
+</td>
+<td width="50%" valign="top">
+
+<h3><a href="https://github.com/MTahirKleem/StudyBuddy">StudyBuddy</a></h3>
+
+<p>No description provided.</p>
+
+<p><code>Python</code></p>
+
+<p>
+Stars: <b>0</b> · Forks: <b>0</b> · Updated: <b>Feb 11, 2026</b>
+</p>
+
+<p><a href="https://github.com/MTahirKleem/StudyBuddy">Repository</a></p>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<h3><a href="https://github.com/MTahirKleem/rag-chatbot">rag-chatbot</a></h3>
+
+<p>No description provided.</p>
+
+<p><code>Project</code></p>
+
+<p>
+Stars: <b>0</b> · Forks: <b>0</b> · Updated: <b>Nov 17, 2025</b>
+</p>
+
+<p><a href="https://github.com/MTahirKleem/rag-chatbot">Repository</a></p>
+
+</td>
+<td width="50%" valign="top">
+
+<h3><a href="https://github.com/MTahirKleem/Portfolio">Portfolio</a></h3>
+
+<p>No description provided.</p>
+
+<p><code>TypeScript</code></p>
+
+<p>
+Stars: <b>0</b> · Forks: <b>0</b> · Updated: <b>Oct 31, 2025</b>
+</p>
+
+<p><a href="https://github.com/MTahirKleem/Portfolio">Repository</a></p>
+
+</td>
+</tr>
+</table>
 <!-- FEATURED-PROJECTS:END -->
 
 ---
