@@ -165,64 +165,13 @@ alt="Muhammad Tahir Contribution Graph"
 
 ## Featured Projects
 
-<table>
-<tr>
-<td width="50%" valign="top">
+These projects are updated automatically from my latest public GitHub repositories.
 
-### rag-chatbot
+<!-- FEATURED-PROJECTS:START -->
 
-Production RAG pipeline with LLM-powered retrieval over domain documents.
+<!-- Featured projects will be inserted here automatically. -->
 
-**Stack:** Python, LangChain, FastAPI
-
-<a href="https://github.com/MTahirKleem/rag-chatbot">
-  <img src="https://img.shields.io/badge/View_Project-111111?style=for-the-badge&logo=github&logoColor=white" alt="View Project"/>
-</a>
-
-</td>
-<td width="50%" valign="top">
-
-### nexora-project
-
-AI agent framework for automated task orchestration and intelligent workflows.
-
-**Stack:** Python, OpenAI, Docker
-
-<a href="https://github.com/MTahirKleem/nexora-project">
-  <img src="https://img.shields.io/badge/View_Project-111111?style=for-the-badge&logo=github&logoColor=white" alt="View Project"/>
-</a>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### Ecommerce_Django
-
-Full-stack e-commerce platform with REST API backend and database integration.
-
-**Stack:** Django, PostgreSQL, HTML
-
-<a href="https://github.com/MTahirKleem/Ecommerce_Django">
-  <img src="https://img.shields.io/badge/View_Project-111111?style=for-the-badge&logo=github&logoColor=white" alt="View Project"/>
-</a>
-
-</td>
-<td width="50%" valign="top">
-
-### Portfolio
-
-Personal portfolio website for showcasing projects, skills, and professional work.
-
-**Stack:** TypeScript, Vercel
-
-<a href="https://m-tahir.dev/">
-  <img src="https://img.shields.io/badge/Live_Site-ff2d55?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Site"/>
-</a>
-
-</td>
-</tr>
-</table>
+<!-- FEATURED-PROJECTS:END -->
 
 ---
 

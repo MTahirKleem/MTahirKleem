@@ -1,0 +1,42 @@
+name: Update Featured Projects
+
+on:
+workflow_dispatch:
+schedule:
+- cron: "17 */6 * * *"
+
+permissions:
+contents: write
+
+jobs:
+update-featured-projects:
+runs-on: ubuntu-latest
+
+```
+steps:
+  - name: Checkout repository
+    uses: actions/checkout@v4
+
+  - name: Set up Python
+    uses: actions/setup-python@v5
+    with:
+      python-version: "3.11"
+
+  - name: Update README featured projects
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      GITHUB_USERNAME: MTahirKleem
+    run: python scripts/update_featured_projects.py
+
+  - name: Commit README changes
+    run: |
+      if [[ -n $(git status --porcelain) ]]; then
+        git config user.name "github-actions[bot]"
+        git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git add README.md
+        git commit -m "Update featured projects"
+        git push
+      else
+        echo "No changes to commit"
+      fi
+```
